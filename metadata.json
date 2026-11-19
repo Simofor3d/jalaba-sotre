@@ -1,0 +1,6 @@
+{
+  "name": "الدار المغربية للأزياء التقليدية الفاخرة | Dar Al Maghribia",
+  "description": "متجر إلكتروني مغربي فاخر للملابس التقليدية الأصيلة: جلابيب، قفاطين، كاندورات، وسلاهم حرفية مع خدمة الدفع عند الاستلام ونظام تحديد جغرافي رسمي للمملكة المغربية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

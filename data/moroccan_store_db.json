@@ -1,0 +1,917 @@
+{
+  "admins": [
+    {
+      "id": "admin-01",
+      "username": "admin",
+      "name": "المدير العام للمتجر",
+      "role": "super_admin",
+      "created_at": "2026-11-11T19:58:35.614Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-men-djellaba",
+      "slug": "men-djellaba",
+      "name_ar": "جلابيب رجالية فاخرة",
+      "name_fr": "Djellabas Homme",
+      "description_ar": "جلابيب رجالية مخزنية صوفية ومليفة مطرزة بخياطة المعلم والسفيفة الدقيقة.",
+      "image_url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80",
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "cat-women-djellaba",
+      "slug": "women-djellaba",
+      "name_ar": "جلابيب وقفاطين نسائية",
+      "name_fr": "Djellabas & Caftans Femme",
+      "description_ar": "إبداع مغربي راقٍ من القفاطين والجلابيب الحريرية المرصعة بالعقاد والضفائر المذهبة.",
+      "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "cat-gandoura",
+      "slug": "gandouras",
+      "name_ar": "كاندورات وجبادور ملكي",
+      "name_fr": "Gandouras & Jabador",
+      "description_ar": "كاندورات صيفية ومناسباتية بلمسات مغربية أصيلة وخامات قطنية ومخملية مريحة.",
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "cat-selham-access",
+      "slug": "selham-accessories",
+      "name_ar": "سلاهم وإكسسوارات تقليدية",
+      "name_fr": "Selhams & Accessoires",
+      "description_ar": "سلاهم صوفية ملكية، بلغة فاس ومراكش الجلدية الأصلية، وطربوش فاس الأصيل.",
+      "image_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80",
+      "display_order": 4,
+      "is_active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "slug": "djellaba-makhzania-homme-verte",
+      "name_ar": "جلابة مخزنية رجالية ملكية خضراء",
+      "name_fr": "Djellaba Makhzania Homme Vert Forêt",
+      "description_ar": "جلابة مغربية مخزنية أصيلة منسوجة من أرقى أقمشة المليفة الكشميرية الفاخرة بلون أخضر زمردي ملكي. مطرزة يدوياً بسفيفة حريرية وعقاد مبرومة على يد كبار معلمين مدينة فاس. تتميز بقصة ملكية واسعة توفر الراحة والفخامة في المناسبات والأعياد.",
+      "description_fr": "Djellaba marocaine traditionnelle confectionnée dans un tissu de cachemire noble vert forêt avec broderie sfifa et aqqads faits main.",
+      "regular_price": 1200,
+      "discounted_price": 950,
+      "category_id": "cat-men-djellaba",
+      "sku": "DJ-MAK-01-GRN",
+      "main_image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "fabric": "مليفة كشمير إيطالية فاخرة",
+      "craftsmanship": "خياطة المعلم التقليدية بسفيفة حرير بريسم وعقاد فاس المتقنة",
+      "care_instructions": "يُنصح بالتنظيف الجاف (Pressing) للحفاظ على خيوط الحرير وتناسق السفيفة. الكي بحرارة خفيفة من الجهة الداخلية.",
+      "specifications": [
+        {
+          "label": "الضمان",
+          "value": "أصلي 100%"
+        },
+        {
+          "label": "الضمان",
+          "value": "أصلي 100%"
+        },
+        {
+          "label": "الضمان",
+          "value": "أصلي 100%"
+        },
+        {
+          "label": "الضمان",
+          "value": "أصلي 100%"
+        }
+      ],
+      "shipping_info": "توصيل مجاني وسريع لكافة ربوع المملكة المغربية خلال 24 إلى 48 ساعة مع خدمة الفحص والمعاينة قبل الدفع.",
+      "return_policy": "استبدال المقاس أو اللون مجاناً ومضمون 100% خلال 7 أيام من الاستلام.",
+      "related_product_ids": [
+        "prod-002",
+        "prod-005",
+        "prod-006"
+      ],
+      "seo_title": "جلابة مخزنية رجالية ملكية خضراء | الدار المغربية للأزياء",
+      "seo_description": "تسوق جلابة مخزنية مغربية رجالية خضراء بخياطة المعلم وسفيفة حرير أصلية مع الدفع عند الاستلام بالمغرب.",
+      "variants": [
+        {
+          "id": "v-01-m-gr",
+          "color_name_ar": "أخضر ملكي",
+          "color_name_fr": "Vert Royal",
+          "color_code": "#123624",
+          "size": "M",
+          "sku": "DJ-01-M-GR",
+          "stock_quantity": 7
+        },
+        {
+          "id": "v-01-l-gr",
+          "color_name_ar": "أخضر ملكي",
+          "color_name_fr": "Vert Royal",
+          "color_code": "#123624",
+          "size": "L",
+          "sku": "DJ-01-L-GR",
+          "stock_quantity": 12
+        },
+        {
+          "id": "v-01-xl-gr",
+          "color_name_ar": "أخضر ملكي",
+          "color_name_fr": "Vert Royal",
+          "color_code": "#123624",
+          "size": "XL",
+          "sku": "DJ-01-XL-GR",
+          "stock_quantity": 6
+        },
+        {
+          "id": "v-01-xxl-gr",
+          "color_name_ar": "أخضر ملكي",
+          "color_name_fr": "Vert Royal",
+          "color_code": "#123624",
+          "size": "XXL",
+          "sku": "DJ-01-XXL-GR",
+          "stock_quantity": 4
+        },
+        {
+          "id": "v-01-l-cr",
+          "color_name_ar": "بيج كريمي",
+          "color_name_fr": "Beige Crème",
+          "color_code": "#F2ECE1",
+          "size": "L",
+          "sku": "DJ-01-L-CR",
+          "stock_quantity": 7
+        },
+        {
+          "id": "v-01-xl-cr",
+          "color_name_ar": "بيج كريمي",
+          "color_name_fr": "Beige Crème",
+          "color_code": "#F2ECE1",
+          "size": "XL",
+          "sku": "DJ-01-XL-CR",
+          "stock_quantity": 5
+        }
+      ],
+      "is_active": true,
+      "is_featured": true,
+      "is_new_arrival": true,
+      "is_best_seller": true,
+      "tags": [
+        "جلابة رجالية",
+        "مخزنية",
+        "أخضر ملكي",
+        "خياطة المعلم"
+      ],
+      "created_at": "2026-11-11T19:58:35.614Z"
+    },
+    {
+      "id": "prod-002",
+      "slug": "djellaba-ouazzania-laine-blanche",
+      "name_ar": "جلابة وزانية صوفية بيضاء أصيلة",
+      "name_fr": "Djellaba Ouazzania Pure Laine Blanc",
+      "description_ar": "جلابة وزانية أصيلة مصنوعة من الصوف الطبيعي الخالص 100% المنسوج على النول اليدوي بمدينة وزان العريقة. دافئة وخفيفة الوزن في آن واحد مع خياطة بالضفيرة والعقاد العريضة. رمز الهيبة والوقار المغربي.",
+      "description_fr": "Véritable djellaba ouazzania en pure laine vierge tissée à la main aux métiers traditionnels.",
+      "regular_price": 1450,
+      "discounted_price": 1190,
+      "category_id": "cat-men-djellaba",
+      "sku": "DJ-OUAZ-02-WHT",
+      "main_image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "fabric": "صوف وزاني طبيعي خالص 100%",
+      "craftsmanship": "نسيج يدوي بالمرمة وخياطة بريسم",
+      "care_instructions": "تنظيف جاف فقط للحفاظ على الصوف الطبيعي. يُحفظ في مكان جيد التهوية مع كرات الخزامى الطبيعية.",
+      "specifications": [
+        {
+          "label": "القصة",
+          "value": "جلابة مغربية أصيلة مع قُب متسع"
+        },
+        {
+          "label": "نوع الصوف",
+          "value": "صوف وزاني بكر 100%"
+        },
+        {
+          "label": "الوزن",
+          "value": "متوسط الدفء خفيف ومريح على الأكتاف"
+        },
+        {
+          "label": "المنشأ",
+          "value": "مدينة وزان - دار الضمانة"
+        }
+      ],
+      "shipping_info": "توصيل مجاني وسريع لكافة مدن المغرب خلال 24-48 ساعة.",
+      "return_policy": "استبدال المقاس متاح ومضمون خلال 7 أيام.",
+      "related_product_ids": [
+        "prod-001",
+        "prod-005",
+        "prod-006"
+      ],
+      "seo_title": "جلابة وزانية صوفية بيضاء أصلية | متجر الدار المغربية",
+      "seo_description": "جلابة وزانية مغربية من الصوف الطبيعي الأبيض الخالص، نسج وخياطة يدوية فاخرة مع الدفع عند الاستلام.",
+      "variants": [
+        {
+          "id": "v-02-m-wh",
+          "color_name_ar": "أبيض ناصع",
+          "color_name_fr": "Blanc",
+          "color_code": "#FFFFFF",
+          "size": "M",
+          "sku": "DJ-02-M-WH",
+          "stock_quantity": 5
+        },
+        {
+          "id": "v-02-l-wh",
+          "color_name_ar": "أبيض ناصع",
+          "color_name_fr": "Blanc",
+          "color_code": "#FFFFFF",
+          "size": "L",
+          "sku": "DJ-02-L-WH",
+          "stock_quantity": 9
+        },
+        {
+          "id": "v-02-xl-wh",
+          "color_name_ar": "أبيض ناصع",
+          "color_name_fr": "Blanc",
+          "color_code": "#FFFFFF",
+          "size": "XL",
+          "sku": "DJ-02-XL-WH",
+          "stock_quantity": 11
+        },
+        {
+          "id": "v-02-xxl-wh",
+          "color_name_ar": "أبيض ناصع",
+          "color_name_fr": "Blanc",
+          "color_code": "#FFFFFF",
+          "size": "XXL",
+          "sku": "DJ-02-XXL-WH",
+          "stock_quantity": 3
+        }
+      ],
+      "is_active": true,
+      "is_featured": true,
+      "is_new_arrival": false,
+      "is_best_seller": true,
+      "tags": [
+        "جلابة وزانية",
+        "صوف طبيعي",
+        "أبيض ملكي"
+      ],
+      "created_at": "2026-11-11T19:58:35.614Z"
+    },
+    {
+      "id": "prod-003",
+      "slug": "caftan-marocain-soie-dore",
+      "name_ar": "قفطان مغربي ملكي مطرز بصقلي ذهبي",
+      "name_fr": "Caftan Marocain de Soie Brodé Or",
+      "description_ar": "قفطان فاخر للمناسبات والأعراس من الحرير الطبيعي الخالص مع تطريز نطع فاسي أصيل بخيوط الصقلي الذهبي المقاوم للتغير. مزين بأحجار كريستال لامعة وحزام مجدول ذهبي مرصع.",
+      "description_fr": "Caftan haute couture marocain en pure soie, richement brodé de fil doré Sqalli.",
+      "regular_price": 2400,
+      "discounted_price": 1890,
+      "category_id": "cat-women-djellaba",
+      "sku": "CAF-ROY-03-GLD",
+      "main_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"
+      ],
+      "fabric": "حرير ساتان دو شين إيطالي",
+      "craftsmanship": "تطريز يدوي بصقلي حر وعقاد مغربية ذهبية",
+      "care_instructions": "تنظيف جاف متخصص فقط (Dry Clean Only). عدم رش العطور مباشرة على خيوط الصقلي.",
+      "specifications": [
+        {
+          "label": "النوع",
+          "value": "قفطان مناسبات وأعراس ملكي (قطعة واحدة)"
+        },
+        {
+          "label": "التطريز",
+          "value": "طرز النطع والصقلي الذهبي الحر المقاوم"
+        },
+        {
+          "label": "الملحقات",
+          "value": "مرفق بحزام مجدول ذهبي مرصع متناسق"
+        },
+        {
+          "label": "بلد الصنع",
+          "value": "المملكة المغربية - فاس ومراكش"
+        }
+      ],
+      "shipping_info": "شحن مجاني مميز في علبة فاخرة تحمي القفطان وتطريزه خلال 24-48 ساعة.",
+      "return_policy": "استبدال المقاس متاح ومضمون خلال 7 أيام.",
+      "related_product_ids": [
+        "prod-001",
+        "prod-004"
+      ],
+      "seo_title": "قفطان مغربي ملكي مطرز بصقلي ذهبي | أزياء تقليدية فاخرة",
+      "seo_description": "قفطان مغربي أصيل حرير ومطرز بصقلي ذهبي ناعم للأعراس والمناسبات الكبرى.",
+      "variants": [
+        {
+          "id": "v-03-m-gd",
+          "color_name_ar": "ذهبي مع عاجي",
+          "color_name_fr": "Doré Ivoire",
+          "color_code": "#C5A059",
+          "size": "M",
+          "sku": "CAF-03-M-GD",
+          "stock_quantity": 4
+        },
+        {
+          "id": "v-03-l-gd",
+          "color_name_ar": "ذهبي مع عاجي",
+          "color_name_fr": "Doré Ivoire",
+          "color_code": "#C5A059",
+          "size": "L",
+          "sku": "CAF-03-L-GD",
+          "stock_quantity": 6
+        },
+        {
+          "id": "v-03-xl-gd",
+          "color_name_ar": "ذهبي مع عاجي",
+          "color_name_fr": "Doré Ivoire",
+          "color_code": "#C5A059",
+          "size": "XL",
+          "sku": "CAF-03-XL-GD",
+          "stock_quantity": 3
+        },
+        {
+          "id": "v-03-l-bl",
+          "color_name_ar": "أزرق ملكي مذهب",
+          "color_name_fr": "Bleu Royal Doré",
+          "color_code": "#1E3A8A",
+          "size": "L",
+          "sku": "CAF-03-L-BL",
+          "stock_quantity": 5
+        }
+      ],
+      "is_active": true,
+      "is_featured": true,
+      "is_new_arrival": true,
+      "is_best_seller": true,
+      "tags": [
+        "قفطان مغربي",
+        "صقلي ذهبي",
+        "أعراس",
+        "حرير"
+      ],
+      "created_at": "2026-11-11T19:58:35.614Z"
+    },
+    {
+      "id": "prod-004",
+      "slug": "gandoura-marocaine-royale-bleu",
+      "name_ar": "كاندورة مغربية رجالية مريحة زرقاء",
+      "name_fr": "Gandoura Marocaine Homme Bleu Roi",
+      "description_ar": "كاندورة مريحة وفاخرة من الكتان الطبيعي عالي الجودة مع تطريز دقيق حول الياقة والصدر. مثالية للجمعة، الصلاة، والمناسبات العائلية في الأجواء المعتدلة والدافئة.",
+      "description_fr": "Gandoura marocaine élégante en lin fin avec broderie traditionnelle au col.",
+      "regular_price": 550,
+      "discounted_price": 450,
+      "category_id": "cat-gandoura",
+      "sku": "GAN-ROY-04-BLU",
+      "main_image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "fabric": "كتان طبيعي بارد ومريح",
+      "craftsmanship": "طرز برباطي خفيف على الصدر والكمين",
+      "care_instructions": "غسيل يدوي أو في الغسالة بماء بارد (30 درجة). الكي بحرارة متوسطة.",
+      "specifications": [
+        {
+          "label": "النوع",
+          "value": "كاندورة رجالية يومية ومناسباتية"
+        },
+        {
+          "label": "القماش",
+          "value": "كتان طبيعي بارد ومريح"
+        },
+        {
+          "label": "الأكمام",
+          "value": "نصف كم مريح (Manches courtes traditionnelles)"
+        }
+      ],
+      "shipping_info": "توصيل سريع لكافة المدن خلال 24-48 ساعة.",
+      "return_policy": "استبدال المقاس متوفر مجاناً خلال 7 أيام.",
+      "related_product_ids": [
+        "prod-001",
+        "prod-006"
+      ],
+      "variants": [
+        {
+          "id": "v-04-m-bl",
+          "color_name_ar": "أزرق نيلي",
+          "color_name_fr": "Bleu Indigo",
+          "color_code": "#1E3A8A",
+          "size": "M",
+          "sku": "GAN-04-M-BL",
+          "stock_quantity": 10
+        },
+        {
+          "id": "v-04-l-bl",
+          "color_name_ar": "أزرق نيلي",
+          "color_name_fr": "Bleu Indigo",
+          "color_code": "#1E3A8A",
+          "size": "L",
+          "sku": "GAN-04-L-BL",
+          "stock_quantity": 14
+        },
+        {
+          "id": "v-04-xl-bl",
+          "color_name_ar": "أزرق نيلي",
+          "color_name_fr": "Bleu Indigo",
+          "color_code": "#1E3A8A",
+          "size": "XL",
+          "sku": "GAN-04-XL-BL",
+          "stock_quantity": 8
+        },
+        {
+          "id": "v-04-l-wh",
+          "color_name_ar": "أبيض قطني",
+          "color_name_fr": "Blanc Coton",
+          "color_code": "#FFFFFF",
+          "size": "L",
+          "sku": "GAN-04-L-WH",
+          "stock_quantity": 12
+        }
+      ],
+      "is_active": true,
+      "is_featured": false,
+      "is_new_arrival": true,
+      "is_best_seller": false,
+      "tags": [
+        "كاندورة",
+        "كتان",
+        "أزرق نيلي"
+      ],
+      "created_at": "2026-11-11T19:58:35.614Z"
+    },
+    {
+      "id": "prod-005",
+      "slug": "selham-marocain-royal-noir",
+      "name_ar": "سلهام مغربي ملكي أسود بصوف فاخر",
+      "name_fr": "Selham (Burnous) Royal Noir en Drap de Laine",
+      "description_ar": "السلهام المغربي الأصيل (البرنوس) من الصوف الأسود الملكي الممتاز، مصمم ليلبس فوق الجلابة ليعطي هيبة ووقاراً استثنائياً في المناسبات الرسمية وحفلات الزفاف المغربية.",
+      "description_fr": "Cape traditionnelle Selham en drap de laine noir d'une élégance inégalée.",
+      "regular_price": 1800,
+      "discounted_price": 1490,
+      "category_id": "cat-selham-access",
+      "sku": "SEL-ROY-05-BLK",
+      "main_image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "fabric": "صوف كشمير عالي الكثافة",
+      "craftsmanship": "خياطة المعلم بالسفيفة الحريرية العريضة والشوشة المتقنة",
+      "care_instructions": "تنظيف جاف فقط للحفاظ على كثافة الصوف وشوشة السلهام الحريرية.",
+      "specifications": [
+        {
+          "label": "النوع",
+          "value": "سلهام (برنوس) ملكي رسمي"
+        },
+        {
+          "label": "القماش",
+          "value": "صوف كشمير أسود ممتاز"
+        },
+        {
+          "label": "المقاس",
+          "value": "مقاس موحد يغطي القامة بالكامل"
+        }
+      ],
+      "shipping_info": "توصيل مجاني في علبة حماية راقية لجميع أنحاء المغرب.",
+      "return_policy": "ضمان الاستبدال خلال 7 أيام.",
+      "related_product_ids": [
+        "prod-001",
+        "prod-002",
+        "prod-006"
+      ],
+      "variants": [
+        {
+          "id": "v-05-std-bk",
+          "color_name_ar": "أسود ملكي",
+          "color_name_fr": "Noir Royal",
+          "color_code": "#111827",
+          "size": "مقاس موحد (Standard)",
+          "sku": "SEL-05-BK",
+          "stock_quantity": 6
+        },
+        {
+          "id": "v-05-std-wh",
+          "color_name_ar": "أبيض سكري",
+          "color_name_fr": "Blanc Cassé",
+          "color_code": "#F9FAFB",
+          "size": "مقاس موحد (Standard)",
+          "sku": "SEL-05-WH",
+          "stock_quantity": 7
+        }
+      ],
+      "is_active": true,
+      "is_featured": true,
+      "is_new_arrival": false,
+      "is_best_seller": false,
+      "tags": [
+        "سلهام",
+        "برنوس",
+        "أسود ملكي",
+        "صوف كشمير"
+      ],
+      "created_at": "2026-11-11T19:58:35.614Z"
+    },
+    {
+      "id": "prod-006",
+      "slug": "tarbouche-fassi-cuir-babouche",
+      "name_ar": "طقم بلغة فاس الجلدية الأصلية مع طربوش وطني",
+      "name_fr": "Ensemble Babouche Fassi Cuir & Tarbouche",
+      "description_ar": "طقم تقليدي متكامل يضم بلغة فاسية من الجلد الطبيعي المدبوغ يدوياً في مدابغ فاس العريقة بنقش مغربي دقيق، وطربوش وطني أحمر مزين بشرابة حريرية سوداء.",
+      "description_fr": "Ensemble traditionnel babouches fassies en cuir véritable et tarbouche fassi.",
+      "regular_price": 490,
+      "discounted_price": 380,
+      "category_id": "cat-selham-access",
+      "sku": "ACC-FAS-06-SET",
+      "main_image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "fabric": "جلد طبيعي مغربي 100%",
+      "craftsmanship": "صناعة يدوية تقليدية بحي الصباغين بفاس",
+      "care_instructions": "مسح بقطعة قماش ناعمة ومرهم ترطيب الجلد الطبيعي.",
+      "specifications": [
+        {
+          "label": "المحتويات",
+          "value": "زوج بلغة فاسية + طربوش وطني أحمر"
+        },
+        {
+          "label": "المادة",
+          "value": "جلد طبيعي مغربي 100%"
+        },
+        {
+          "label": "اللون",
+          "value": "أصفر فاسي أصيل (Ziwani)"
+        }
+      ],
+      "shipping_info": "توصيل سريع لكافة المدن.",
+      "return_policy": "استبدال المقاس متوفر مجاناً.",
+      "related_product_ids": [
+        "prod-001",
+        "prod-002",
+        "prod-004"
+      ],
+      "variants": [
+        {
+          "id": "v-06-41-yl",
+          "color_name_ar": "أصفر فاسي تقليدي",
+          "color_name_fr": "Jaune Fassi",
+          "color_code": "#EAB308",
+          "size": "41",
+          "sku": "BAB-41-YL",
+          "stock_quantity": 8
+        },
+        {
+          "id": "v-06-42-yl",
+          "color_name_ar": "أصفر فاسي تقليدي",
+          "color_name_fr": "Jaune Fassi",
+          "color_code": "#EAB308",
+          "size": "42",
+          "sku": "BAB-42-YL",
+          "stock_quantity": 12
+        },
+        {
+          "id": "v-06-43-yl",
+          "color_name_ar": "أصفر فاسي تقليدي",
+          "color_name_fr": "Jaune Fassi",
+          "color_code": "#EAB308",
+          "size": "43",
+          "sku": "BAB-43-YL",
+          "stock_quantity": 9
+        },
+        {
+          "id": "v-06-44-yl",
+          "color_name_ar": "أصفر فاسي تقليدي",
+          "color_name_fr": "Jaune Fassi",
+          "color_code": "#EAB308",
+          "size": "44",
+          "sku": "BAB-44-YL",
+          "stock_quantity": 5
+        }
+      ],
+      "is_active": true,
+      "is_featured": false,
+      "is_new_arrival": true,
+      "is_best_seller": true,
+      "tags": [
+        "بلغة فاسية",
+        "طربوش فاس",
+        "جلد طبيعي"
+      ],
+      "created_at": "2026-11-11T19:58:35.614Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1794429062380-789",
+      "order_number": "DM-2026-1548",
+      "customer_name": "محمد بناني",
+      "customer_phone": "0661223344",
+      "address_line": "شارع المسيرة الخضراء عمارة 12 شقة 4",
+      "region_id": "reg-06",
+      "province_id": "prov-casa",
+      "commune_id": "com-casa-maar",
+      "region_name_ar": "جهة الدار البيضاء - سطات",
+      "province_name_ar": "عمالة الدار البيضاء",
+      "commune_name_ar": "جماعة المعاريف",
+      "payment_method": "COD",
+      "payment_status": "AWAITING_PAYMENT",
+      "order_status": "CANCELLED",
+      "subtotal": 950,
+      "shipping_cost": 0,
+      "discount_amount": 0,
+      "total_amount": 950,
+      "items": [
+        {
+          "id": "snap-1794429062380-898",
+          "product_id": "prod-001",
+          "variant_id": "v-01-m-gr",
+          "product_name": "جلابة مخزنية رجالية ملكية خضراء",
+          "color_name": "أخضر ملكي",
+          "size": "M",
+          "sku": "DJ-01-M-GR",
+          "unit_price": 950,
+          "quantity": 1,
+          "total_price": 950,
+          "image_url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "internal_notes": "",
+      "created_at": "2026-11-11T20:31:02.380Z",
+      "updated_at": "2026-11-11T20:31:02.381Z"
+    },
+    {
+      "id": "ord-1794428066821-77",
+      "order_number": "DM-2026-7433",
+      "customer_name": "محمد بناني",
+      "customer_phone": "0661223344",
+      "address_line": "شارع المسيرة الخضراء عمارة 12 شقة 4",
+      "region_id": "reg-06",
+      "province_id": "prov-casa",
+      "commune_id": "com-casa-maar",
+      "region_name_ar": "جهة الدار البيضاء - سطات",
+      "province_name_ar": "عمالة الدار البيضاء",
+      "commune_name_ar": "جماعة المعاريف",
+      "payment_method": "COD",
+      "payment_status": "AWAITING_PAYMENT",
+      "order_status": "CANCELLED",
+      "subtotal": 950,
+      "shipping_cost": 0,
+      "discount_amount": 0,
+      "total_amount": 950,
+      "items": [
+        {
+          "id": "snap-1794428066821-535",
+          "product_id": "prod-001",
+          "variant_id": "v-01-m-gr",
+          "product_name": "جلابة مخزنية رجالية ملكية خضراء",
+          "color_name": "أخضر ملكي",
+          "size": "M",
+          "sku": "DJ-01-M-GR",
+          "unit_price": 950,
+          "quantity": 1,
+          "total_price": 950,
+          "image_url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "internal_notes": "",
+      "created_at": "2026-11-11T20:14:26.821Z",
+      "updated_at": "2026-11-11T20:14:26.822Z"
+    },
+    {
+      "id": "ord-1794427831113-237",
+      "order_number": "DM-2026-2866",
+      "customer_name": "حمزة المودن",
+      "customer_phone": "0661234567",
+      "address_line": "شارع المسيرة الخضراء إقامة الياسمين عمارة 4 شقة 12",
+      "region_id": "reg-06",
+      "province_id": "prov-casa",
+      "commune_id": "com-casa-maar",
+      "region_name_ar": "جهة الدار البيضاء - سطات",
+      "province_name_ar": "عمالة الدار البيضاء الكبرى",
+      "commune_name_ar": "جماعة المعاريف",
+      "payment_method": "COD",
+      "payment_status": "AWAITING_PAYMENT",
+      "order_status": "PENDING",
+      "subtotal": 950,
+      "shipping_cost": 0,
+      "discount_amount": 0,
+      "total_amount": 950,
+      "items": [
+        {
+          "id": "snap-1794427831112-399",
+          "product_id": "prod-001",
+          "variant_id": "v-01-m-gr",
+          "product_name": "جلابة مخزنية رجالية ملكية خضراء",
+          "color_name": "أخضر ملكي",
+          "size": "M",
+          "sku": "DJ-01-M-GR",
+          "unit_price": 950,
+          "quantity": 1,
+          "total_price": 950,
+          "image_url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "internal_notes": "",
+      "created_at": "2026-11-11T20:10:31.113Z",
+      "updated_at": "2026-11-11T20:10:31.113Z"
+    },
+    {
+      "id": "ord-1794427610341-964",
+      "order_number": "DM-2026-1314",
+      "customer_name": "محمد بناني",
+      "customer_phone": "0661223344",
+      "address_line": "شارع المسيرة الخضراء عمارة 12 شقة 4",
+      "region_id": "reg-06",
+      "province_id": "prov-casa",
+      "commune_id": "com-casa-maar",
+      "region_name_ar": "جهة الدار البيضاء - سطات",
+      "province_name_ar": "عمالة الدار البيضاء",
+      "commune_name_ar": "جماعة المعاريف",
+      "payment_method": "COD",
+      "payment_status": "AWAITING_PAYMENT",
+      "order_status": "CANCELLED",
+      "subtotal": 950,
+      "shipping_cost": 0,
+      "discount_amount": 0,
+      "total_amount": 950,
+      "items": [
+        {
+          "id": "snap-1794427610341-620",
+          "product_id": "prod-001",
+          "variant_id": "v-01-m-gr",
+          "product_name": "جلابة مخزنية رجالية ملكية خضراء",
+          "color_name": "أخضر ملكي",
+          "size": "M",
+          "sku": "DJ-01-M-GR",
+          "unit_price": 950,
+          "quantity": 1,
+          "total_price": 950,
+          "image_url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "internal_notes": "",
+      "created_at": "2026-11-11T20:06:50.341Z",
+      "updated_at": "2026-11-11T20:06:50.342Z"
+    },
+    {
+      "id": "ord-1794427115625-309",
+      "order_number": "DM-2026-1510",
+      "customer_name": "محمد بناني",
+      "customer_phone": "0661223344",
+      "address_line": "شارع المسيرة الخضراء عمارة 12 شقة 4",
+      "region_id": "reg-06",
+      "province_id": "prov-casa",
+      "commune_id": "com-casa-maar",
+      "region_name_ar": "جهة الدار البيضاء - سطات",
+      "province_name_ar": "عمالة الدار البيضاء",
+      "commune_name_ar": "جماعة المعاريف",
+      "payment_method": "COD",
+      "payment_status": "AWAITING_PAYMENT",
+      "order_status": "CANCELLED",
+      "subtotal": 950,
+      "shipping_cost": 0,
+      "discount_amount": 0,
+      "total_amount": 950,
+      "items": [
+        {
+          "id": "snap-1794427115625-147",
+          "product_id": "prod-001",
+          "variant_id": "v-01-m-gr",
+          "product_name": "جلابة مخزنية رجالية ملكية خضراء",
+          "color_name": "أخضر ملكي",
+          "size": "M",
+          "sku": "DJ-01-M-GR",
+          "unit_price": 950,
+          "quantity": 1,
+          "total_price": 950,
+          "image_url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "internal_notes": "",
+      "created_at": "2026-11-11T19:58:35.625Z",
+      "updated_at": "2026-11-11T19:58:35.626Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1794429062382-406",
+      "product_id": "prod-001",
+      "product_name_ar": "جلابة مخزنية رجالية ملكية خضراء",
+      "customer_name": "يوسف الفاسي",
+      "customer_city": "المغرب",
+      "rating": 5,
+      "comment": "جلابة قمة في الأناقة والروعة",
+      "is_approved": true,
+      "created_at": "2026-11-11T20:31:02.382Z",
+      "admin_reply": "شكراً لكم سي يوسف"
+    },
+    {
+      "id": "rev-1794428066823-36",
+      "product_id": "prod-001",
+      "product_name_ar": "جلابة مخزنية رجالية ملكية خضراء",
+      "customer_name": "يوسف الفاسي",
+      "customer_city": "المغرب",
+      "rating": 5,
+      "comment": "جلابة قمة في الأناقة والروعة",
+      "is_approved": true,
+      "created_at": "2026-11-11T20:14:26.823Z",
+      "admin_reply": "شكراً لكم سي يوسف"
+    },
+    {
+      "id": "rev-1794427610344-212",
+      "product_id": "prod-001",
+      "product_name_ar": "جلابة مخزنية رجالية ملكية خضراء",
+      "customer_name": "يوسف الفاسي",
+      "customer_city": "المغرب",
+      "rating": 5,
+      "comment": "جلابة قمة في الأناقة والروعة",
+      "is_approved": true,
+      "created_at": "2026-11-11T20:06:50.344Z",
+      "admin_reply": "شكراً لكم سي يوسف"
+    },
+    {
+      "id": "rev-1794427115627-385",
+      "product_id": "prod-001",
+      "product_name_ar": "جلابة مخزنية رجالية ملكية خضراء",
+      "customer_name": "يوسف الفاسي",
+      "customer_city": "المغرب",
+      "rating": 5,
+      "comment": "جلابة قمة في الأناقة والروعة",
+      "is_approved": true,
+      "created_at": "2026-11-11T19:58:35.627Z",
+      "admin_reply": "شكراً لكم سي يوسف"
+    },
+    {
+      "id": "rev-01",
+      "product_id": "prod-001",
+      "product_name_ar": "جلابة مخزنية رجالية ملكية خضراء",
+      "customer_name": "عمر التازي",
+      "customer_city": "الدار البيضاء",
+      "rating": 5,
+      "comment": "تبارك الله على إتقان الخياطة وسفيفة المعلم! الجلابة وصلتني في يومين وقياسها مضبوط تماماً. القماش ممتاز والخياطة متقونة بزاف.",
+      "is_approved": true,
+      "admin_reply": "شكراً جزيلاً سي عمر، شهادتكم وسام فخر لمعلمينا التقليديين بالدار المغربية.",
+      "created_at": "2026-11-08T19:58:35.614Z"
+    },
+    {
+      "id": "rev-02",
+      "product_id": "prod-002",
+      "product_name_ar": "جلابة وزانية صوفية بيضاء أصيلة",
+      "customer_name": "الحاج إدريس السوسي",
+      "customer_city": "مراكش",
+      "rating": 5,
+      "comment": "صوف وزاني حقيقي ودافئ جداً وناعم، الجلابة قمة في الوقار والهيبة. خدمة التوصيل والدفع عند الاستلام مريحة ومحترمة.",
+      "is_approved": true,
+      "created_at": "2026-11-06T19:58:35.614Z"
+    },
+    {
+      "id": "rev-03",
+      "product_id": "prod-003",
+      "product_name_ar": "قفطان مغربي ملكي مطرز بصقلي ذهبي",
+      "customer_name": "لالة مريم العلمي",
+      "customer_city": "الرباط",
+      "rating": 5,
+      "comment": "القفطان أكثر من رائع في الواقع! الصقلي بيور ويلمع بأناقة راقية جداً ولبسته في عرس أخي ونال إعجاب الجميع. شكراً لكم.",
+      "is_approved": true,
+      "admin_reply": "بالصحة والراحة لالة مريم، مبارك مسعود.",
+      "created_at": "2026-11-04T19:58:35.614Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-01",
+      "name": "كريم البودالي",
+      "phone": "0661984521",
+      "email": "karim.b@gmail.com",
+      "subject": "استفسار عن إمكانية خياطة جلابة بقياسات خاصة",
+      "message": "السلام عليكم ورحمة الله، هل يمكن تفصيل جلابة مخزنية خضراء بقياس طول خاص (1.92 متر)؟ وما هي المدة المطلوبة للتوصيل؟ شكراً جزيلاً.",
+      "is_read": false,
+      "created_at": "2026-11-10T19:58:35.614Z"
+    }
+  ],
+  "settings": {
+    "hero_title_ar": "أصالة الماضي وأناقة الحاضر في أبهى تجلياتها",
+    "hero_subtitle_ar": "تشكيلة استثنائية من الجلابيب، القفاطين، والسلاهم المغربية المخزنية الفاخرة، صُنعت بأيدي أمهر المعلمين في فاس ومراكش بحرير أصيل وخياطة متقنة.",
+    "hero_image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1600&q=80",
+    "hero_cta_text_ar": "اكتشف المجموعة الجديدة",
+    "hero_cta_link": "#new-arrivals",
+    "announcement_bar_ar": "✨ شحن مجاني لكافة مدن المملكة للطلبات فوق 500 درهم | الدفع عند الاستلام متاح | خياطة تقليدية مغربية 100%",
+    "promo_banner_active": true,
+    "promo_banner_title_ar": "عروض الموسم التقليدي",
+    "promo_banner_text_ar": "تخفيضات حصرية تصل إلى 25% على تشكيلة الجلابيب الصوفية الملكية والقفاطين المطرزة بصقلي أصيل.",
+    "promo_banner_discount": "خصم 25%",
+    "store_name": "الدار المغربية للأزياء التقليدية الفاخرة",
+    "store_phone": "+212 5 22 45 88 90",
+    "store_whatsapp": "+212 6 61 78 90 12",
+    "store_email": "contact@daralmaghribia.ma",
+    "store_city": "الدار البيضاء، المملكة المغربية",
+    "shipping_fee": 40,
+    "free_shipping_threshold": 500,
+    "enable_cod": true,
+    "enable_online_payment": true
+  }
+}
